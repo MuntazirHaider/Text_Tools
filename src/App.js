@@ -31,7 +31,7 @@ function App() {
   }
   return (
     <>
-      <Navbar title={"TextTools"} mode={mode} toggleMode={toggleMode} />
+      <Navbar title={"Text-Tools"} mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
       <div className="container my-3">
         <Content showAlert={showAlert} heading={"Enter Text Below"} mode={mode} />
